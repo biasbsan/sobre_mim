@@ -1,0 +1,45 @@
+html body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+
+}
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4d3e4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(https://t4.ftcdn.net/jpg/02/80/11/57/360_F_280115769_QI9ejEG6w7EpFica5kvbpfaGHsK321UI.jpg);
+    
+}
+.profile-picture {
+    text-align: center;
+}
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid lightpink;
+}
+.profile-name {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Lucida Handwriting", cursive, sans-serif;;
+    margin-top: 10px;
+    background-color: lightpink;
+    border-radius: 10px 10px 0px 0px
+    
+}
+.profile-bio {
+    text-align: center;
+    font-style: italic;
+    color: palevioletred;
+    background-color: #f8e7f1; /* Cor de fundo rosa claro */
+    padding: 20px;
+    border-radius: 0 0 10px 10px
+}
